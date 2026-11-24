@@ -24,9 +24,13 @@ const resume = {
     'SQL, and REST APIs. Seeking an entry-level software developer or IT engineer role where I can apply ' +
     'my engineering training and production experience to build reliable, user-focused systems.',
 
+  // category: 'tech' | 'other' powers the experience filter.
+  // tags that match a skill name are highlighted when that skill is clicked.
   experience: [
     {
       title: 'IT Engineer',
+      category: 'tech',
+      tags: ['C#', 'JavaScript', 'HTML', 'CSS', 'SQL', 'REST APIs', 'ASP.NET Web API', 'Microsoft SQL Server', 'Relational database design & querying'],
       company: 'New American Business Associate',
       location: 'Louisville, KY',
       start: 'Dec 2020',
@@ -39,6 +43,8 @@ const resume = {
     },
     {
       title: 'Array Technician (Microchip Assembly)',
+      category: 'tech',
+      tags: ['Microsoft Office (Excel, Word)', 'Technical documentation', 'Quality control', 'Testing & inspection'],
       company: 'Blackrock Neurotech',
       location: 'Salt Lake City, UT',
       start: 'May 2022',
@@ -51,6 +57,8 @@ const resume = {
     },
     {
       title: 'Security Officer',
+      category: 'other',
+      tags: ['Incident reporting', 'Access control', 'Customer service'],
       company: 'Allied Universal',
       location: 'Goldsmith, TX',
       start: 'Sep 2023',
@@ -64,6 +72,8 @@ const resume = {
     },
     {
       title: 'Nail Technician (Part-Time)',
+      category: 'other',
+      tags: ['Customer service', 'Scheduling', 'Inventory'],
       company: 'US Nails',
       location: 'Louisville, KY',
       start: 'Feb 2016',
@@ -75,6 +85,8 @@ const resume = {
     },
     {
       title: 'Delivery Driver (Gig / Contract)',
+      category: 'other',
+      tags: ['Route planning', 'Time management'],
       company: 'DoorDash · Amazon Flex',
       location: 'Louisville, KY',
       start: 'Jan 2019',
