@@ -28,4 +28,4 @@ The `dist/` output uses relative paths, so it can be hosted on GitHub Pages, Net
 
 `.github/workflows/deploy.yml` builds and publishes the site on every push to `main`.
 One-time setup: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-The site is then served at `https://devotohabbo.github.io/portfolio/`.
+The site is then served at `https://phuongnguyen210295.github.io/Portfolio/`.

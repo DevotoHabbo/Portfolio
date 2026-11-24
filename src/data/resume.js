@@ -12,7 +12,7 @@ const resume = {
   indeedUrl: 'https://profile.indeed.com/',
   links: [
     { label: 'LinkedIn', url: 'https://www.linkedin.com/in/phuong-nguyen-3762061bb' },
-    { label: 'GitHub', url: 'https://github.com/DevotoHabbo' },
+    { label: 'GitHub', url: 'https://github.com/PhuongNguyen210295' },
   ],
   openTo: ['Open to relocation (U.S.)', 'Authorized to work in the U.S.'],
   desiredPay: '',
