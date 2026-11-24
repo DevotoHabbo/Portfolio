@@ -5,6 +5,7 @@ import Experience from './components/Experience.jsx';
 import Education from './components/Education.jsx';
 import Skills from './components/Skills.jsx';
 import Certifications from './components/Certifications.jsx';
+import Languages from './components/Languages.jsx';
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <aside className="col-side">
           {resume.skills?.length > 0 && <Skills items={resume.skills} />}
           {resume.certifications?.length > 0 && <Certifications items={resume.certifications} />}
+          {resume.languages?.length > 0 && <Languages items={resume.languages} />}
         </aside>
       </div>
       <footer className="footer no-print">

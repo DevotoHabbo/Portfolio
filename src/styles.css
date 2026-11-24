@@ -105,3 +105,8 @@ a:hover { color: var(--accent-hover); }
   .header { grid-template-columns: auto 1fr; }
   .columns { grid-template-columns: 1fr 240px; }
 }
+
+.skill-group + .skill-group { margin-top: 14px; }
+.skill-group h3 { margin: 0 0 6px; font-size: .9rem; color: var(--muted); font-weight: 600; }
+.skill-group .chips { margin-top: 0; }
+.skill .years { text-align: right; padding-left: 12px; }

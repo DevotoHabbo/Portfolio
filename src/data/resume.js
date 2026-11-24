@@ -1,73 +1,123 @@
 // ─────────────────────────────────────────────────────────────
-// Edit this file with your own details. Everything on the page
-// is rendered from this object.
+// Edit this file to update the resume. Everything on the page
+// is rendered from this object; empty sections are hidden.
 // ─────────────────────────────────────────────────────────────
 const resume = {
-  name: 'Your Name',
-  headline: 'Software Developer',
-  location: 'City, State',
-  email: 'you@example.com',
-  phone: '(555) 123-4567',
-  // Paste your public Indeed resume / profile link here.
+  name: 'Phuong Nguyen',
+  headline: 'Entry-Level Software Developer / IT Engineer',
+  location: 'Louisville, KY 40214',
+  email: 'ferbious21@gmail.com',
+  phone: '(502) 298-7137',
+  // TODO: paste your public Indeed resume/profile link here.
   indeedUrl: 'https://profile.indeed.com/',
   links: [
-    { label: 'GitHub', url: 'https://github.com/devotohabbo' },
-    { label: 'LinkedIn', url: 'https://www.linkedin.com/' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/phuong-nguyen-3762061bb' },
+    { label: 'GitHub', url: 'https://github.com/DevotoHabbo' },
   ],
-  openTo: ['Full-time', 'Remote', 'Hybrid'],
+  openTo: ['Open to relocation (U.S.)', 'Authorized to work in the U.S.'],
   desiredPay: '',
 
   summary:
-    'Developer with experience building responsive web applications in React and JavaScript. ' +
-    'Comfortable across the stack, focused on clean, accessible UI and reliable delivery.',
+    'Computer Engineering graduate (B.S., University of Louisville) with hands-on experience building ' +
+    'full-stack web applications, manufacturing precision microchip assemblies for a neurotechnology ' +
+    'company, and delivering client-facing technical documentation. Proficient in C#, HTML, JavaScript, ' +
+    'SQL, and REST APIs. Seeking an entry-level software developer or IT engineer role where I can apply ' +
+    'my engineering training and production experience to build reliable, user-focused systems.',
 
   experience: [
     {
-      title: 'Front-End Developer',
-      company: 'Company Name',
-      location: 'City, State',
-      start: 'Jan 2023',
-      end: 'Present',
+      title: 'IT Engineer',
+      company: 'New American Business Associate',
+      location: 'Louisville, KY',
+      start: 'Dec 2020',
+      end: 'Mar 2021',
       bullets: [
-        'Built and maintained React components used across customer-facing pages.',
-        'Improved page load time by 30% by code-splitting and lazy-loading routes.',
-        'Worked with designers and back-end engineers to ship features every sprint.',
+        'Designed and built a full-stack web application with an HTML/CSS/JavaScript front-end, C#/.NET REST API layer, and SQL database backend, integrating all components into a single functional product.',
+        "Wrote and optimized SQL queries to retrieve, filter, and aggregate data for the application's reporting features.",
+        'Collaborated with stakeholders to translate business requirements into technical specifications and deliver working features on schedule.',
       ],
     },
     {
-      title: 'Web Developer Intern',
-      company: 'Another Company',
-      location: 'Remote',
-      start: 'Jun 2022',
-      end: 'Dec 2022',
+      title: 'Array Technician (Microchip Assembly)',
+      company: 'Blackrock Neurotech',
+      location: 'Salt Lake City, UT',
+      start: 'May 2022',
+      end: 'Oct 2022',
       bullets: [
-        'Developed internal tools with JavaScript, HTML and CSS.',
-        'Wrote unit tests and documentation for shared utilities.',
+        'Assembled precision microchip electrode arrays for neural-interface devices, adhering to strict quality-control standards in a regulated manufacturing environment.',
+        'Prepared and maintained customer-facing technical documentation, ensuring accuracy of assembly records and shipping manifests.',
+        'Performed incoming inspection and functional testing of microchip components, reducing defect pass-through through detailed inspection logs.',
+      ],
+    },
+    {
+      title: 'Security Officer',
+      company: 'Allied Universal',
+      location: 'Goldsmith, TX',
+      start: 'Sep 2023',
+      end: 'Present',
+      bullets: [
+        'Conduct scheduled and random patrols across interior and exterior facilities, monitoring for security risks and unauthorized activity.',
+        'Respond to incidents, alarms, and emergencies following established SOPs; file detailed written incident reports the same day.',
+        'Manage access-control points by verifying credentials and logging all entry/exit events.',
+        'Serve as the primary on-site point of contact for clients, visitors, and staff, representing the company professionally.',
+      ],
+    },
+    {
+      title: 'Nail Technician (Part-Time)',
+      company: 'US Nails',
+      location: 'Louisville, KY',
+      start: 'Feb 2016',
+      end: '2023',
+      bullets: [
+        'Performed acrylic application, custom nail art, and repair services for a recurring client base over seven years, maintaining high client retention through consistent quality.',
+        'Managed appointment scheduling, supply inventory, and point-of-sale transactions independently.',
+      ],
+    },
+    {
+      title: 'Delivery Driver (Gig / Contract)',
+      company: 'DoorDash · Amazon Flex',
+      location: 'Louisville, KY',
+      start: 'Jan 2019',
+      end: 'Sep 2025',
+      bullets: [
+        'Completed on-time delivery targets across food and package routes by planning efficient pickup-to-drop-off sequences in real time.',
+        'Handled high-volume daily order loads while maintaining zero-damage handling of goods.',
       ],
     },
   ],
 
   education: [
     {
-      degree: 'B.S. in Computer Science',
-      school: 'University Name',
-      location: 'City, State',
-      start: '2018',
-      end: '2022',
+      degree: 'Bachelor of Science in Computer Engineering',
+      school: 'University of Louisville',
+      location: 'Louisville, KY',
+      start: 'Jul 2020',
+      end: 'Jun 2022',
+      bullets: [
+        'Relevant coursework: Data Structures, Database Systems, Operating Systems, Digital Logic Design, Web Development, Software Engineering',
+      ],
+    },
+    {
+      degree: 'Nail Technician Certification',
+      school: "PJ's College of Cosmetology · Clarksville",
+      location: 'Louisville, KY',
+      end: '2016',
     },
   ],
 
+  // Grouped skills: { category, items[] }
   skills: [
-    { name: 'React', years: 3 },
-    { name: 'JavaScript', years: 4 },
-    { name: 'HTML / CSS', years: 5 },
-    { name: 'Node.js', years: 2 },
-    { name: 'Git', years: 4 },
-    { name: 'REST APIs', years: 3 },
+    { category: 'Languages', items: ['C#', 'JavaScript', 'HTML', 'CSS', 'SQL', 'PHP'] },
+    { category: 'Frameworks / APIs', items: ['REST APIs', 'ASP.NET Web API'] },
+    { category: 'Databases', items: ['Microsoft SQL Server', 'Relational database design & querying'] },
+    { category: 'Tools & Platforms', items: ['Microsoft Office (Excel, Word)', 'Windows', 'Git'] },
   ],
 
-  certifications: [
-    { name: 'Certification Name', issuer: 'Issuer', date: '2024' },
+  certifications: [],
+
+  languages: [
+    { name: 'English', level: 'Professional working proficiency' },
+    { name: 'Vietnamese', level: 'Native / Expert' },
   ],
 };
 
